@@ -11,4 +11,6 @@ using namespace std;
 // post conditions: output the necessary values
 void EX_04();
 
+int EX_04_2X();
+
 #endif // !EX_04_H
