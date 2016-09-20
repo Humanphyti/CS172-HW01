@@ -16,4 +16,6 @@ int EX_04_02(int choice);
 
 int EX_04_add(int num1, int num2);
 
+void EX_04_addOne(int& origin);
+
 #endif // !EX_04_H

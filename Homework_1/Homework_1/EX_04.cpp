@@ -20,18 +20,38 @@ void EX_04(){
 		int cubes = pow(i, 3);
 		cout << cubes << endl;
 	}
+
+	cout << "c" << endl;
+	// do-while loop to output a line of asterisks
 	do {
 		cout << "*";
 	} while (i < choice);
 
+	cout << "d" << endl;
+	//for loop to determine the even numbers between 0 and 40
 	for (int n = 0; n <= 40; n++) {
 		if (n % 2 == 0) {
 			cout << n;
 		}
 	}
-	EX_04_02(choice);
-	cout << choice << endl;
-	EX_04_add(rand(), rand());
+
+	cout << "e" << endl;
+	//doubling function
+	int doubleChoice = 0;
+	doubleChoice = EX_04_02(choice);
+	cout << doubleChoice << endl;
+
+	cout << "f" << endl;
+	//storage variable for the result
+	int z = 0;
+	//adding function
+	z = EX_04_add(rand(), rand());
+	cout << z << endl;
+
+	cout << "g" << endl;
+	int funNumbers = rand();
+	EX_04_addOne(funNumbers);
+	cout << funNumbers << endl;
 }
 
 int EX_04_02(int choice){
@@ -45,5 +65,10 @@ int EX_04_add(int num1, int num2)
 	int sum;
 	sum = num1 + num2;
 	return sum;
+}
+
+void EX_04_addOne(int & origin)
+{
+	origin += 1;
 }
 
