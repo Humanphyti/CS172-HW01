@@ -29,12 +29,21 @@ void EX_04(){
 			cout << n;
 		}
 	}
-	EX_04_2X(choice);
+	EX_04_02(choice);
+	cout << choice << endl;
+	EX_04_add(rand(), rand());
 }
 
-int EX_04_2X()
+int EX_04_02(int choice){
+	int doubleChoice;
+	doubleChoice = 2 * choice;
+	return doubleChoice;
+}
+
+int EX_04_add(int num1, int num2)
 {
-	
-	return 0;
+	int sum;
+	sum = num1 + num2;
+	return sum;
 }
 

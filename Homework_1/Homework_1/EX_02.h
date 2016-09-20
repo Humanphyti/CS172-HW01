@@ -4,6 +4,7 @@
 #include <cmath>;
 #include <string>;
 #include <ctime>;
+#include <cstdlib>;
 using namespace std;
 
 // A funtion that manages all parts of EX01_01

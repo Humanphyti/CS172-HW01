@@ -7,8 +7,10 @@ void EX_02(){
 		bool hasPassedTest = true;
 
 		cout << "b" << endl;
+		//initialize the random number generator
+		srand(time(NULL));
 		//initializes integers x and y to pseudo-random numbers
-		int x = srand(static_cast<unsigned int>(time(NULL))), y = srand(static_cast<unsigned int>(time(NULL)));
+		int x = rand(), y = rand();
 		//determines whether x is bigger, smaller, or equal to y
 		if (x > y) {
 			cout << x << " is larger than " << y << endl;
