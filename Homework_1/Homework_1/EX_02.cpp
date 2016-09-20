@@ -5,6 +5,8 @@ void EX_02(){
 		cout << "a" << endl;
 		//initialize variable hasPassedTest to true
 		bool hasPassedTest = true;
+		cout << hasPassedTest << endl;
+		system("pause");
 
 		cout << "b" << endl;
 		//initialize the random number generator
@@ -21,6 +23,7 @@ void EX_02(){
 		else {
 			cout << x << " and " << y << " are equal." << endl;
 		}
+		system("pause");
 
 		cout << "c" << endl;
 		//initializes numberOfShares
@@ -33,6 +36,7 @@ void EX_02(){
 		if (numberOfShares < 100) {
 			cout << "number of shares is less than 100." << endl;
 		}
+		system("pause");
 
 		cout << "d" << endl;
 		//initialize boxWidth and bookWidth
@@ -44,12 +48,13 @@ void EX_02(){
 		cout << "How wide is your book: ";
 		cin >> bookWidth;
 		//check to see if it divides evenly
-		if ((boxWidth % bookWidth) = 0) {
+		if ((boxWidth % bookWidth) == 0) {
 			cout << "The book will be a perfect fit width wise." << endl;
 		}
 		else {
 			cout << "The book will not be a perfect fit width wise." << endl;
 		}
+		system("pause");
 
 		cout << "e" << endl;
 		//initialize variables shelfLife and outTemp
@@ -68,4 +73,5 @@ void EX_02(){
 		else {
 			cout << shelfLife << " days is the current shelf life of your chocolate." << endl;
 		}
+		system("pause");
 }

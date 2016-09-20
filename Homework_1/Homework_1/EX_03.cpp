@@ -11,7 +11,8 @@ void EX_03(){
 	// prompt user for the units they are using for their area calculations
 	cout << "What units are you using for your area: ";
 	cin >> units;
-	cout << "The diagonal of your square is " << sqrt(2 * area) << units << endl;
+	cout << "The diagonal of your square is " << sqrt(2 * area) << " " << units << endl;
+	system("pause");
 
 	cout << "b" << endl;
 	// initialize variable response
@@ -31,22 +32,26 @@ void EX_03(){
 		cout << "you have not answered my question properly, therefore no." << endl;
 		break;
 	}
-
+	system("pause");
 
 	cout << "c" << endl;
 	// initialize variable tab
-	char tab = \t;
+	char tab = 9;
 	cout << tab << endl;
+	system("pause");
 
 	cout << "d" << endl;
 	//initialize string mailingAddress
-	string mailingAddress = "";
+	string mailingAddress;
 	// prompt user for their mailing address
 	cout << "What is your mailing address (I'm not being creepy I swear it all clears after you finish the program): ";
-	cin >> mailingAddress;
-
+	cin.clear();
+	cin.ignore();
+	getline(cin, mailingAddress);
+	system("pause");
 	cout << "e" << endl;
 	// initialize string variable to a something not empty
 	string notEmpty = "Empty";
 	cout << notEmpty << endl;
+	system("pause");
 }

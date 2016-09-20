@@ -27,6 +27,9 @@
     <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_04.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_02.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_05.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

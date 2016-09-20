@@ -12,19 +12,23 @@ void EX_04(){
 		cin >> choice;
 	} while (choice < 1 || choice > 10);
 	cout << "Congrats you followed the directions!" << endl;
+	system("pause");
 
 	cout << "b" << endl;
 	// loop to compute cubes
 	int i = 0;
-	for (i = 0; i < choice; i++) {
+	for (i = 0; i <= choice; i++) {
 		int cubes = pow(i, 3);
 		cout << cubes << endl;
 	}
+	system("pause");
 
 	cout << "c" << endl;
 	// do-while loop to output a line of asterisks
+	i = 0;
 	do {
 		cout << "*";
+		i++;
 	} while (i < choice);
 
 	cout << "d" << endl;
@@ -34,12 +38,14 @@ void EX_04(){
 			cout << n;
 		}
 	}
+	system("pause");
 
 	cout << "e" << endl;
 	//doubling function
 	int doubleChoice = 0;
 	doubleChoice = EX_04_02(choice);
 	cout << doubleChoice << endl;
+	system("pause");
 
 	cout << "f" << endl;
 	//storage variable for the result
@@ -47,11 +53,14 @@ void EX_04(){
 	//adding function
 	z = EX_04_add(rand(), rand());
 	cout << z << endl;
+	system("pause");
 
 	cout << "g" << endl;
 	int funNumbers = rand();
 	EX_04_addOne(funNumbers);
 	cout << funNumbers << endl;
+	system("pause");
+
 }
 
 int EX_04_02(int choice){

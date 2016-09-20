@@ -145,12 +145,14 @@
     <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_02.cpp" />
     <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_03.cpp" />
     <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_04.cpp" />
+    <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_05.cpp" />
     <ClCompile Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_02.h" />
     <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_03.h" />
     <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_04.h" />
+    <ClInclude Include="..\..\..\..\..\Kevin%27s PC\Documents\CS172-HW01\Homework_1\Homework_1\EX_05.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

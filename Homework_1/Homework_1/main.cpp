@@ -19,11 +19,14 @@ int main() {
 	EX_02();
 	cout << endl;
 	cout << endl;
+	system("pause");
 	EX_03();
 	cout << endl;
 	cout << endl;
+	system("pause");
 	EX_04();
 	cout << endl;
 	cout << endl;
+	system("pause");
 	EX_05();
 }
