@@ -36,8 +36,8 @@ void EX_03(){
 
 	cout << "c" << endl;
 	// initialize variable tab
-	char tab = 9;
-	cout << tab << endl;
+	char tab = '\t';
+	cout << tab << "Text" << endl;
 	system("pause");
 
 	cout << "d" << endl;

@@ -16,17 +16,17 @@ using namespace std;
 //begin main function
 int main() {
 
-	EX_02();
-	cout << endl;
-	cout << endl;
-	system("pause");
-	EX_03();
-	cout << endl;
-	cout << endl;
-	system("pause");
+	//EX_02();
+//	cout << endl;
+//	cout << endl;
+//	system("pause");
+//	EX_03();
+//	cout << endl;
+//	cout << endl;
+//	system("pause");
 	EX_04();
-	cout << endl;
-	cout << endl;
-	system("pause");
-	EX_05();
+//	cout << endl;
+//	cout << endl;
+//	system("pause");
+//	EX_05();
 }

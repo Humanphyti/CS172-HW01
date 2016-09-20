@@ -30,12 +30,13 @@ void EX_04(){
 		cout << "*";
 		i++;
 	} while (i < choice);
+    cout << endl;
 
 	cout << "d" << endl;
 	//for loop to determine the even numbers between 0 and 40
 	for (int n = 0; n <= 40; n++) {
 		if (n % 2 == 0) {
-			cout << n;
+			cout << n << " ";
 		}
 	}
 	system("pause");
